@@ -25,9 +25,6 @@ $ python -m pytest -q
 ..............                                                           [100%]
 14 passed in 0.17s
 ```
-
-12 new unit tests (`test_cart.py`, `test_repository.py`, `test_checkout.py`) plus the 2 starter smoke tests. Each test uses a temporary SQLite database (`tmp_path`) and a fake payment gateway, so the suite is deterministic. Run against the original starter code, 11 of the 14 fail.
-
 ## CI
 
 GitHub Actions workflow: `.github/workflows/tests.yml` (runs on every push and pull request).
